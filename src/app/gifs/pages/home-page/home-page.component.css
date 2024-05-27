@@ -1,0 +1,15 @@
+.home-page{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.listado{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+@media(min-width: 768px){
+  .listado{
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

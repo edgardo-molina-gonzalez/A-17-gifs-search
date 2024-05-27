@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+  --azul:
+}
+
+html{
+  font-size:62.5%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5{
+  font-weight: 700;
+  margin-top: 0;
+
+}
+
+body{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  margin: 0;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+.contenedor{
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto;
+}

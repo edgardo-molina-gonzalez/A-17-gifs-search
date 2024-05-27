@@ -1,0 +1,13 @@
+.sidebar{
+  background-color: black;
+  height: 100vh;
+}
+h3{
+  color: white;
+  margin-top: 0;
+  text-align: center;
+}
+.boton{
+  width: 90%;
+  text-align: center;
+}
