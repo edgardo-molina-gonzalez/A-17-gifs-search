@@ -10,4 +10,8 @@ h3{
 .boton{
   width: 90%;
   text-align: center;
+  cursor: pointer;
+}
+.contenedor-boton{
+  text-align: center;
 }

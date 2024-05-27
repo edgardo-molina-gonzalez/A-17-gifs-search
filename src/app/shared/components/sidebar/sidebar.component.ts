@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
       <hr />
 
       @for(gif of gifs; track gif){
-      <div>
+      <div class="contenedor-boton">
         <button class="boton">{{ gif | titlecase }}</button>
       </div>
       }
